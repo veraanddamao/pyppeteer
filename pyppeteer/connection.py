@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 logger_connection = logging.getLogger(__name__ + '.Connection')
 logger_session = logging.getLogger(__name__ + '.CDPSession')
 
-
+#changed already
 class Connection(EventEmitter):
     """Connection management class."""
 
